@@ -1,0 +1,5 @@
+you deposit 1000
+you withdraw 200
+you transfer 10 to Nour
+you asked for 2000 as loan
+the admin rejected your load

@@ -1,0 +1,43 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "FirstMySQLConnection",
+            "database": "Banque",
+            "password": "N15351379",
+            "username": "root"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Bank",
+            "database": "Bank",
+            "username": "root",
+            "password": "root",
+            "connectionTimeout": 30
+        }
+    ],
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "c:\\Users\\MSI\\Downloads\\mysql-connector-j-9.5.0\\mysql-connector-j-9.5.0\\mysql-connector-j-9.5.0.jar"
+        ],
+        "exclude": [
+            "lib/mysql-connector-j-9.5.0.jar"
+        ]
+    }
+}
